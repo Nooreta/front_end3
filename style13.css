@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+}
+.test
+{
+ width: 200px;
+ height: 200px;
+ background-color: blue;
+ /* animation:Noor 3s 2s alternative; */
+ animation-name: Noor;
+ animation-duration:10s;
+ animation-direction: alternate;
+ animation-delay: 2s;
+ animation-iteration-count: infinite;
+ margin-bottom: 20px;
+
+}
+@keyframes Noor
+{
+    0%{
+     width:20% ;
+     background-color: red;
+    }
+    30%
+    {
+        width:40%;
+        background-color: green;
+    }
+    70%
+    {
+       width: 70%;
+       background-color: blueviolet;
+    }
+    100%{
+       width: 100%;
+       background-color: brown;
+    }
+}
+.test2
+{
+    background-color: brown;
+    width:100px;
+    height: 100px;
+    animation-name:boxMove;
+    animation-duration:10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+     position: relative;
+}
+@keyframes boxMove
+{
+    0%
+    {
+      left:0;
+      top:0;
+    }
+    25%{
+      left: 200px;
+      top:0px;
+    }
+    50%{
+      top:200px;
+      left:200px;
+    }
+    75%{
+        left:0px;
+        top:200px;
+     }
+    100%{
+      top:0px;
+      left: 0px;
+    }
+}

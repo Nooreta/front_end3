@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height:2000px;
+
+}
+.Header{
+width: 100%;
+height:400px;
+background-image: url("imgs/Bakery.jpg");
+background-size: cover;
+}
+.width_100
+{
+    width: 100%;
+    height: 400px;
+}
+.b{
+background-color:#ff10ee;
+width:400px;
+height: 350px;
+position: relative;
+
+}
+.ch{
+  background-color: rgb(216, 191, 213);
+  width:100px;
+  height:100px;
+  position: absolute;
+  top:10px;
+  left:10px;
+  border-radius: 50%;
+  border: 1px solid yellow;  
+}
+.ch1{
+    background-color: rgb(216, 191, 213);
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:10px;
+    right:10px;
+    border-radius: 50%;
+    border: 1px solid yellow;  
+  }
+  .r{
+    background-color: rgb(216, 191, 213);
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:100px;
+    right:150px;
+    border-radius: 50%;
+    border: 1px solid yellow;  
+  }
+  .pp{
+      background-color: tomato;
+      width: 500px;
+      height:300px;
+      position: relative;
+
+
+  }
+  .div_m{
+    background-color: violet;
+    width:500px;
+    height:100px;
+  }
+  .div_m imgg{
+   width: 100%;
+   height: 100px;
+  }
+  .c{
+    background-color: teal;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top:250px;
+    left: -50px;
+  }

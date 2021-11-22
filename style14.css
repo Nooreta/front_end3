@@ -1,0 +1,46 @@
+body
+{
+    background-color: #09c;
+    overflow: hidden;
+}
+img{
+animation-name:cloudMove ;
+animation-duration: 5s;
+animation-direction: alternate;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+position: relative;
+}
+@keyframes cloudMove
+{
+    0%{
+      left: 0;
+      top: 0;
+    }
+    100%{
+      left: 110%;
+      top: 0px;}
+}
+@media screen and (max-width:576px)
+{
+    img {
+        width: 100%;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px)
+{
+    img{width:75%;}
+}
+@media screen and (min-width:993px)
+{
+    img{
+        width: 50%;
+    }
+
+}
+@media screen and (min-width:769px) and (max-width:992px)
+{
+    img{
+        width:25%;
+    }
+}

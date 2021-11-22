@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.one,.two,.three,.four{
+width: 24%;
+height: 200px;
+color: black;
+display: inline-block;
+padding: 15px;
+border: crimson 2px solid;
+border-top-left-radius:10px ;
+border-bottom-right-radius:10px ;
+border-top-style: double ;
+
+box-sizing: border-box;
+
+}
+.parent
+{
+    overflow: hidden;
+    width: 100%;
+    min-height:200px;
+    margin: 18px 0px;
+}
+.parent .inside-d
+{
+    
+    width: 25%;
+    height: 200px;
+    float: left;
+    border: 1px solid crimson;
+    padding: 10px 7px;
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: 200;
+    border-top-right-radius:30px ;
+    border-bottom-left-radius:50px ;
+}
+.parent .inside-d p{
+    margin-top: 30px;
+}
+
+.container{
+   width: 100%;
+    margin:auto;
+}
+.s{
+    margin-top: 8px;
+    padding: 3px 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(139, 51, 0);
+   }
+   .h1{
+       margin:  10px auto;
+       width: 50px;
+
+   }
+   .c{
+       color: darkgrey;
+       text-align: center;
+       font-size: 35px;
+       margin: 10px auto ;
+
+
+   }
+   .pa{
+     text-align: center;
+     color: darkslategray;
+     margin-bottom: 20px;
+   }
+   .parent2
+   {
+      width: 100%;
+      min-height: 200px;
+      
+   }
+   .parent2 .ch
+   {
+   
+     width: 32.3333%;
+      height: 200px;
+      float: left;
+      border: 1px solid red;
+      border-radius: 70%;
+     box-sizing: border-box;
+
+   }
+   .parent2 div img
+   {
+       width: 392px;
+       height:200px ;
+       border-radius: 90%;
+
+   }
+   .clear{
+    clear:both;
+}
+ul{
+    list-style-type: square;
+}

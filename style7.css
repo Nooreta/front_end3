@@ -1,0 +1,19 @@
+.test > p
+{
+    color: red;
+}
+.test +p{
+    color: rosybrown;
+}
+.test ~ p{
+    color: saddlebrown;
+}
+@font-face
+{
+src: url('../Segoe\ui\semilight.ttf';);
+
+ 
+}
+body{
+     /* font-family: 'segoe ui light';  */
+}

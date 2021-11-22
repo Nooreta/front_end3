@@ -1,0 +1,109 @@
+body{
+   
+}
+.salim{
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    overflow: scroll;
+    caption-side: top;
+}
+table{
+    width: 120px;
+    height: 100px;
+    border: 1px solid #fea
+}
+table,tr,td,th{
+    border: 2px solid #ddf;
+}
+td{
+    vertical-align: top;
+    text-align: center;
+
+
+}
+h1{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: darkgrey;
+   
+}
+a:hover
+{
+    background-color: darkmagenta;
+    font-size: 40px;
+    color: darksalmon;
+    border:1px solid darkred;
+    padding: 10px;
+}
+a:active
+{
+    color: darkslateblue;
+    background-color: dodgerblue;
+    padding: 20px;
+    font-size: 45px;
+    border: 1px solid blue;
+}
+.PP
+{
+    width: 400px;
+    height: 300px;
+    background-color: crimson;
+
+}
+p::first-line
+{
+    color: teal;
+    background-color: tomato;
+    font-size: medium;
+    padding: 10px;
+
+}
+p::first-letter{
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+
+}
+.text-align{
+    text-align:center;
+}
+.bg-color{
+    background-color: green;
+    
+}
+h2{
+    position: relative;
+}
+
+h2::before{
+    content: "";
+    color:lightgrey;
+    background-color: lightslategray;
+    height: 5px;
+    width: 45%;
+    position: absolute;
+    top: 30%;
+    left: 0px;
+}
+h2::after{
+    content: "";
+    color:rgb(126, 120, 120);
+    background-color: lightslategray;
+    height: 5px;
+    width: 45%;
+    position: absolute;
+    top: 30%;
+    right: 0px;
+}
+
+.dd{
+    content: "";
+    color:rgb(126, 120, 120);
+    background-color: lightslategray;
+    height: 5px;
+    width: 100%;
+   
+}
